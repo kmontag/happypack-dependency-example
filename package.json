@@ -1,0 +1,13 @@
+{
+  "name": "happypack-dependency-example",
+  "version": "0.0.1",
+  "description": "Demonstrates unexpected behavior when dependencies are modified",
+  "main": "a.js",
+  "author": "Kevin Montag <kmontag@cs.stanford.edu>",
+  "license": "ISC",
+  "devDependencies": {
+    "dummy-loader": "file:./dummy-loader",
+    "happypack": "^3.0.1",
+    "webpack": "^2.2.0-rc.2"
+  }
+}

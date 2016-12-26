@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "1" > dependency.txt
+rm -r .happypack
+
+echo "\n--> no cache, loader expected to run."
+./node_modules/.bin/webpack
+
+echo "\n--> loader not expected to run."
+./node_modules/.bin/webpack
+
+echo "2" > dependency.txt
+echo "\n--> dependency changed, loader expected to run."
+./node_modules/.bin/webpack

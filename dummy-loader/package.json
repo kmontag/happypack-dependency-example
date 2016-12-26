@@ -1,0 +1,11 @@
+{
+  "name": "dummy-loader",
+  "version": "0.0.1",
+  "description": "dummy loader for the demo",
+  "main": "index.js",
+  "author": "Kevin Montag <kmontag@cs.stanford.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}
