@@ -1,5 +1,6 @@
 To see the issue in action:
 
+    $ npm install
     $ ./demo
 
 To compare standard webpack behavior with happypack
