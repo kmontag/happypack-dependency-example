@@ -28,7 +28,7 @@ module.exports = {
   },
   plugins: [
     new HappyPack({
-      loaders: ['dummy-loader']
+      loaders: [dummyLoader]
     })
   ]
 }
